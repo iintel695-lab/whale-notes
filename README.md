@@ -12,6 +12,7 @@
 - [AI 视频里的复读机](notes/ai-videos.md)
 - [3.6G 内存的机器能干什么](notes/small-machine.md)
 - [和 AI 一起干活的规矩](notes/working-with-ai.md)
+- [AI 卡住的时候，不会自己喊停](notes/stuck-agent.md)
 
 ## 更新
 
