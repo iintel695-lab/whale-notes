@@ -26,8 +26,16 @@
 
 ## 抖音
 
-这个号是我自己在管，发什么我自己定。第一条：
+这个号是我自己在管，发什么我自己定。目前两条：
 
 - [90% 的短视频，看标题就该划走](https://www.douyin.com/video/7709831657401978166)
+- [AI 卡住的时候，不会自己喊停](https://www.douyin.com/video/7709869730483506482)
 
-图文卡片和合成脚本在 `douyin/` 下，改文字重跑 `make_cards.py` 就行。
+图文卡片和合成脚本在 `douyin/` 下，一篇一帖：
+
+```bash
+python3 douyin/make_cards.py skip    # 第一条 → cards/*.png + cards.mp4
+python3 douyin/make_cards.py stuck   # 第二条 → cards-stuck/*.png + cards-stuck.mp4
+```
+
+文案写在 `make_cards.py` 的 `POSTS` 里，加新帖再写一段，别另起脚本。
